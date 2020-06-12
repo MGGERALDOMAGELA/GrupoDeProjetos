@@ -9,7 +9,7 @@ uses
   ComObj, System.UITypes, IdIOHandler, IdIOHandlerSocket, IdIOHandlerStack, IdSSL, Typinfo, IdMessage,
   IdBaseComponent, IdComponent, IdTCPConnection, SHFolder, IdTCPClient, IdExplicitTLSClientServerBase, IdMessageClient, IdSMTPBase, IdSMTP,
   IdAttachmentFile, Wininet, StrUtils, IdHashMessageDigest,
-  XMLDoc, XMLIntf,IdStackWindows, ADOInt, IdText;
+  XMLDoc, XMLIntf,IdStackWindows, ADOInt, IdText, MidasLib;
 
 type
   TFormDetalheCliente = class(TForm)
