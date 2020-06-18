@@ -41,9 +41,9 @@ begin
   SSLSocket := TIdSSLIOHandlerSocketOpenSSL.Create(Application);
   IdentificadorMensagem := TIdMessage.Create(Application);
 
-  ProvedorSMTP := 'smtp.gmail.com';
-  UserSMTP := 'tmg.gemaco@gmail.com';
-  SenhaSMTP := 'magela123';
+  ProvedorSMTP := '';  // Coloque aqui seu provedor
+  UserSMTP := ''; // Coloque aqui seu e-mail
+  SenhaSMTP := '';     //coloque aqui a sua senha
   PortaSMTP := 587;  //465, 587
 
   with SMTP do
